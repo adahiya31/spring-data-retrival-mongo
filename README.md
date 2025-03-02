@@ -42,10 +42,13 @@ The SensorDataProducer sends sensor data to a MongoDB Collection, and the Sensor
 `
 docker pull mongo
 `
+
 4. Start a MongoDB container:
+   
 `
 docker run -d -p 27017:27017 --name mongodb mongo
 `
+
 5.  MongoDB is now running on `localhost:27017`.
 
 
@@ -58,7 +61,7 @@ To build and run this project, follow these steps:
 2.	Install and run an instance of the MongoDB on a specific port or 27017.
 3.	Install oracle JDK 21 on your local machine.
 4.	Update the application.properties file to specify the MongoDB i.e DB name and port it is  running on.
-Testing the REST APIs
+5.    Testing the REST APIs
       
 ### To test the REST APIs, follow these steps:
 
@@ -69,6 +72,7 @@ Testing the REST APIs
 (to Check JWT functionality)
 1.	Get the JWT token.
 2.	Pass the JWT token in the Authorization header of each request.
+   
  **Pass token in each request header**
 
 #### Get Token by this call:
