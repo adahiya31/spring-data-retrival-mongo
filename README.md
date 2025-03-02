@@ -15,7 +15,7 @@ The SensorDataProducer sends sensor data to a MongoDB Collection, and the Sensor
 
 ### Architecture
 
-![image](https://github.com/MaysamPx/stream-data-store-retrieval-with-springboot-mongodb/assets/13215181/e8af092b-f7bf-498c-8477-968ce0af2369)
+![image](https://github.com/adahiya31/spring-data-retrival-mongo/blob/main/img.png)
 
 #Dependencies
 
@@ -66,7 +66,7 @@ Testing the REST APIs
 1. Import Postman collection.
 
 *Option 2*
-(to Check JWT funcationality)
+(to Check JWT functionality)
 1.	Get the JWT token.
 2.	Pass the JWT token in the Authorization header of each request.
  **Pass token in each request header**
